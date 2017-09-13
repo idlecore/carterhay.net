@@ -10,9 +10,9 @@ html {
     padding-right: $social-size * 3;
     padding-top: $social-size;
     .main {
-      background-color: grey;
-      padding: 10px;
       .tagline {
+        border: 1px solid black;
+        padding: 10px;
         text-align: center;
         a {
           color: black;
@@ -20,12 +20,19 @@ html {
           
         }
       }
+
+      .button {
+        padding:3px;
+        margin: 10px;
+        border: 1px solid red;
+      }
     }
 
     .social-group {
       position: absolute;
       left: $social-size;
       top: $social-size;
+      width: $social-size;
 
       .social-button{
         margin: $social-size;
