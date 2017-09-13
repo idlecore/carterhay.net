@@ -2,83 +2,24 @@
 extends templates/template.pug
 
 block content
-  div(class='container mt-5')
-    div(class='row')
 
-      div(class='col-sm-4')
-        div(class='text-center')
-          img(class='card-img-top'
-              src='img/it-fits-screenshot-scaled.png'
-              alt='It Fits')
-        div(class='card-block')
-          h4(class='card-title') It Fits
-          p(class='card-text').
-            It Fits is a game written with the engine Torque2D. It is a puzzle
-            game based on tetris-like peices. The goal is to get each peice
-            provided to fit on the board.
-          a(class='btn btn-primary', href='https://github.com/clccmh/ItFits') View It On Github
+  div(class='social-group')
+    a(class='social-button', href='https://twitter.com/carterhay')
+      div
+        img(src='img/Twitter.png')
 
-      div(class='col-sm-4')
-        div(class='text-center')
-          img(class='card-img-top'
-              src='img/carterkarts.png'
-              alt='Carter Karts')
-        div(class='card-block')
-          h4(class='card-title') Carter Karts
-          p(class='card-text').
-            This project is a racing game for my college game development class
-            implemented in javascript using the framework Phaser.
-          a(class='btn btn-primary', href='https://github.com/clccmh/CarterKarts') View It On Github
+    a(class='social-button', href='https://github.com/clccmh')
+      div
+        img(src='img/Github.png')
 
-      div(class='col-sm-4')
-        div(class='text-center')
-          img(class='card-img-top'
-              src='img/recipebook-scaled.png'
-              alt='RecipeBook')
-        div(class='card-block')
-          h4(class='card-title') RecipeBook
-          p(class='card-text').
-            RecipeBook is an android app written for my college app development class, 
-            that stores and categorizes recipes. It can also convert quantities, 
-            and adjust recipes based on the amount of people.
-          a(class='btn btn-primary', href='https://github.com/clccmh/RecipeBook') View In On Github
+    a(class='social-button', href='https://linkedin.com/in/carter-hay')
+      div
+        img(src='img/linkedin.png')
 
-    div(class='row')
-
-      div(class='col-sm-4')
-        #div(class='text-center')
-          #img(class='card-img-top'
-              #src='img/recipebook-scaled.png'
-              #alt='RecipeBook')
-        div(class='card-block')
-          h4(class='card-title') Ruby MITM Proxy
-          p(class='card-text').
-            This is an HTTP/HTTPS MITM proxy written in Ruby. It was first written as 
-            a semester project for a security class.
-          a(class='btn btn-primary', href='https://github.com/clccmh/MITM-Proxy') View In On Github
-
-      div(class='col-sm-4')
-        div(class='text-center')
-          img(class='card-img-top'
-              src='img/mazer.png'
-              alt='Mazer')
-        div(class='card-block')
-          h4(class='card-title') Mazer
-          p(class='card-text').
-            Mazer is a procedural maze generator based on Prim's algorithm, 
-            written in python. I would like it to eventually be a library for
-            generating different types of mazes using different algorithms.
-          a(class='btn btn-primary', href='https://github.com/clccmh/Mazer') View In On Github
-
-      div(class='col-sm-4')
-        #div(class='text-center')
-          #img(class='card-img-top'
-              #src='img/recipebook-scaled.png'
-              #alt='RecipeBook')
-        div(class='card-block')
-          h4(class='card-title') This Website
-          p(class='card-text').
-            This website is my third itteration of the site. I've decided to 
-            move to a non-dynamic website model. I'm using Pug for html pre-processing.
-          a(class='btn btn-primary', href='https://github.com/clccmh/carterhay.net') View In On Github
+  div(class='main')
+    div(class='tagline')
+      h1 Carter Hay
+      h3 Software Engineer
+      a(href='mailto:carter@carterhay.net')
+        h3 carter@carterhay.net
 
