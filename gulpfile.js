@@ -6,6 +6,12 @@
 const gulp = require('gulp');
 const sass = require('gulp-sass');
 const pug = require('gulp-pug2');
+const watch = require('gulp-watch');
+
+const pugGlob = './src/html/*.pug';
+const jsGlob = './src/js/*.js';
+const cssGlob = './src/css/*.scss';
+const imgGlob = './src/img/*';
 
 
 gulp.task('sass', function() {
@@ -41,3 +47,9 @@ gulp.task('default', function() {
   gulp.start('img');
 })
 
+gulp.task('watch', function () {
+  gulp.watch([pugGlob, './src/html/**/*.pug'], ['pug']);
+  gulp.watch(jsGlob, ['js']);
+  gulp.watch(cssGlob, ['sass']);
+  gulp.watch(imgGlob, ['img']);
+})

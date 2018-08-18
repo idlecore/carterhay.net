@@ -2,40 +2,59 @@ $primary: #b71c1c;
 $primary-light: #f05545;
 $primary-dark: #7f0000;
 
-div .card-block {
-  .btn-primary {
-    background-color: $primary;
-    border-color: $primary;
-    &:hover {
-      background-color: $primary-dark;
-      border-color: $primary-dark;
-    }
-  }
+.project-card {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-nav.navbar.navbar-toggleable-sm.navbar-light.rounded.bg-faded {
-  background-color: $primary-dark;
-  div.collapse.navbar-collapse {
-    a.navbar-brand {
-      color: white;
-    }
-    ul.navbar-nav.navbar-toggler-right {
-      li.nav-item {
-        a.nav-link {
-          color: white;
-          &:hover {
-            color: lightgrey;
-          }
+.menu-item-divided {
+  border-top: 1px solid #777;
+}
+
+.content {
+  padding-left: 15.5em;
+  padding-right: 0.5em;
+}
+
+.sidebar {
+  // padding-right: 1px;
+  border-right: 1px solid #777;
+  position: fixed;
+  width: 15em;
+  top: 0;
+  bottom: 0;
+
+  .pure-menu-heading {
+    color: $primary;
+    font-size: 150%;
+    padding: 0.25em 0.5em;
+  }
+  .pure-menu-list {
+    .pure-menu-item {
+      .menu-link {
+        img {
+          margin: 0.5em 1em;
+          width: 2em;
+          height: auto;
         }
       }
     }
   }
 }
 
-link.nav-link {
-  color: white;
+.content {
+  //background: $primary;
 }
 
-a .navbar-brand {
-  color: red;
+@media (max-width: 45em) {
+  .sidebar {
+    position: static;
+    border: none;
+    width: 100%;
+  }
+  .content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
 }

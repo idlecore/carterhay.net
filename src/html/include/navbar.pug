@@ -1,29 +1,16 @@
 
-div(class='container mt-2')
-  nav(class='navbar navbar-toggleable-sm navbar-light rounded bg-faded')
-    button(
-      class='navbar-toggler',
-      type='button',
-      data-toggle='collapse',
-      data-target='#mainNavbar',
-      aria-controls='mainNavbar',
-      aria-expanded='false',
-      aria-label='Taggle navigation'
-    )
-      span(class='navbar-toggler-icon')
-
-    div(class='collapse navbar-collapse', id='mainNavbar')
-      a(class='navbar-brand', href='index.html') Carter Hay
-      ul(class='navbar-nav navbar-toggler-right')
-        li(class='nav-item')
-          a(class='nav-link', href='about.html') About
-        li(class='nav-item')
-          a(class='nav-link', 
-            href='https://github.com/clccmh') GitHub
-        li(class='nav-item')
-          a(class='nav-link', 
-            href='https://www.linkedin.com/in/carter-hay') LinkedIn
-        li(class='nav-item')
-          a(class='nav-link',
-            href='https://twitter.com/carterhay') Twitter
-
+a(class="pure-menu-heading" href="/") Carter Hay
+ul(class="pure-menu-list")
+  li(class="pure-menu-item menu-item-divided")
+    a(class="menu-link", href="https://github.com/carterhay")
+      img(src="img/GitHub-Mark-120px-plus.png" alt="GitHub")
+    a(class="menu-link", href="https://www.linkedin.com/in/carter-hay")
+      img(src="img/In-2C-128px-R.png" alt="GitHub")
+    a(class="menu-link", href="https://twitter.com/carterhay")
+      img(src="img/Twitter_Social_Icon_Circle_Color.png" alt="GitHub")
+  li(class="pure-menu-item menu-item-divided")
+    a(class="pure-menu-link", href="/") Home
+  li(class="pure-menu-item")
+    a(class="pure-menu-link", href="projects.html") Projects
+  li(class="pure-menu-item")
+    a(class="pure-menu-link", href="about.html") About
