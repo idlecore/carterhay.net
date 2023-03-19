@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Carter&#39;s Blog on Carter Hay</title>
-    <link>http://example.org/posts/</link>
+    <link>https://carterhay.com/posts/</link>
     <description>Recent content in Carter&#39;s Blog on Carter Hay</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Jun 2010 08:06:25 +0600</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Jun 2010 08:06:25 +0600</lastBuildDate><atom:link href="https://carterhay.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     

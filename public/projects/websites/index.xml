@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Websites on Carter Hay</title>
-    <link>http://example.org/projects/websites/</link>
+    <link>https://carterhay.com/projects/websites/</link>
     <description>Recent content in Websites on Carter Hay</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/projects/websites/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Mon, 18 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://carterhay.com/projects/websites/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>This Website</title>
-      <link>http://example.org/projects/websites/this_website/</link>
+      <link>https://carterhay.com/projects/websites/this_website/</link>
       <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/projects/websites/this_website/</guid>
+      <guid>https://carterhay.com/projects/websites/this_website/</guid>
       <description>In 2023 I decided that I needed to improve my resume website. My previous website was extremely light-weight using only basic html/css and no javascript. It was built using the Pure CSS framework. The main problem with it was that it was ugly, and hard to update. The design of the website wasn&amp;rsquo;t good. I designed it myself; however, I&amp;rsquo;m a developer, not a designer. My update process involved re-building the pug, saas, and coffeescript generation by hand then replacing files on google cloud.</description>
     </item>
     

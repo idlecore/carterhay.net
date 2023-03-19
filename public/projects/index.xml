@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Carter Hay</title>
-    <link>http://example.org/projects/</link>
+    <link>https://carterhay.com/projects/</link>
     <description>Recent content in Projects on Carter Hay</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/projects/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Mon, 18 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://carterhay.com/projects/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>Just Golf</title>
-      <link>http://example.org/projects/games/just_golf/</link>
+      <link>https://carterhay.com/projects/games/just_golf/</link>
       <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/projects/games/just_golf/</guid>
+      <guid>https://carterhay.com/projects/games/just_golf/</guid>
       <description>It&amp;rsquo;s just golf. Designed to emulate the weird, clunky games of old.
 This was my first game ever using Godot. I wanted to make a small game that I could complete quickly. I have a lot of projects, and this is one of the only projects that I consider &amp;ldquo;done&amp;rdquo;.</description>
     </item>
     
     <item>
       <title>Sleepy Sheep</title>
-      <link>http://example.org/projects/games/sleepy_sheep/</link>
+      <link>https://carterhay.com/projects/games/sleepy_sheep/</link>
       <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/projects/games/sleepy_sheep/</guid>
+      <guid>https://carterhay.com/projects/games/sleepy_sheep/</guid>
       <description></description>
     </item>
     
     <item>
       <title>This Website</title>
-      <link>http://example.org/projects/websites/this_website/</link>
+      <link>https://carterhay.com/projects/websites/this_website/</link>
       <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/projects/websites/this_website/</guid>
+      <guid>https://carterhay.com/projects/websites/this_website/</guid>
       <description>In 2023 I decided that I needed to improve my resume website. My previous website was extremely light-weight using only basic html/css and no javascript. It was built using the Pure CSS framework. The main problem with it was that it was ugly, and hard to update. The design of the website wasn&amp;rsquo;t good. I designed it myself; however, I&amp;rsquo;m a developer, not a designer. My update process involved re-building the pug, saas, and coffeescript generation by hand then replacing files on google cloud.</description>
     </item>
     

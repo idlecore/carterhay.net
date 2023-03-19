@@ -1,4 +1,4 @@
-baseURL: 'http://example.org/'
+baseURL: 'https://carterhay.com/'
 languageCode: 'en-us'
 title: 'Carter Hay'
 theme: 'toha'
@@ -53,6 +53,7 @@ params:
   darkMode:
     enable: true
     provider: darkreader
+    default: dark
     services:
       darkreader:
         defaultColorScheme: dark # options are 'system', 'dark', 'light'
