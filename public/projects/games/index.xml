@@ -5,6 +5,26 @@
     <link>http://example.org/projects/games/</link>
     <description>Recent content in Games on Carter Hay</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/projects/games/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Mon, 18 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/projects/games/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Just Golf</title>
+      <link>http://example.org/projects/games/just_golf/</link>
+      <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/projects/games/just_golf/</guid>
+      <description>It&amp;rsquo;s just golf. Designed to emulate the weird, clunky games of old.
+This was my first game ever using Godot. I wanted to make a small game that I could complete quickly. I have a lot of projects, and this is one of the only projects that I consider &amp;ldquo;done&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Sleepy Sheep</title>
+      <link>http://example.org/projects/games/sleepy_sheep/</link>
+      <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/projects/games/sleepy_sheep/</guid>
+      <description></description>
+    </item>
+    
+    
   </channel>
 </rss>
