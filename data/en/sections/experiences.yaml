@@ -1,0 +1,72 @@
+section:
+  name: Experience
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+
+experiences:
+  - company:
+      name: Performance Software
+      url: "https://psware.com"
+      location: New Orleans, LA
+      overview: Performance Software (PSW) is a software and systems engineering firm with a commitment to on-time, on-budget performance. Our company specializes in embedded avionics and full life-cycle solutions certifiable to DO-178B Level A. Additionally, we develop critical software for the power distribution and medical device industries. Performance Software's reputation has earned it preferred supplier status with many Tier-1 avionics suppliers.
+    positions:
+      - designation: Senior Project Engineer
+        start: March 2021
+        responsibilities:
+          - Boeing - Develop and review source code, analyze test failures.
+          - Collins Aerospace - Acted as component lead and sole developer for antenna and satellite simulation tools used for developer V&V.
+      - designation: Project Engineer
+        start: March 2019
+        end: March 2021
+        responsibilities:
+          - ESI Motion - Project Lead for approximately 15 developers. Full project lifecycle including certification document drafting, software requirement drafting and review, source code review, test case, procedure, and script review, structural coverage analysis, and other certification analyses. This role included the certifiability of the primary project and multiple test tools and environments. Supported over 2 months of on-site project planning and certification activities including audit defense. 
+          - Pratt & Whitney - Project Lead for small project with approximately 3 developers. Full project lifecycle performing source code and testing updates to existing software.
+      - designation: Software Engineer
+        start: January 2017
+        end: March 2019
+        responsibilities:
+          - Thales - Developed source code and unit tests for new CDU display component. This project was mission critical and had an extremely fast turn around time of less than 1 month.
+          - Honeywell Aerospace - Acted as component lead for a Web-based maintenance gui overseeing development of 2 other engineers. Coordinated and integrated with multiple teams across 3 countries. Developed and reviewed software written in C++, and a Vue front-end.
+          - Pratt & Whitney - Draft Project certification documents, draft software requirements, update and review source code, develop and review test cases, procedures and scripts. Additionally performed structural coverage analysis and other certification analyses. 
+      - designation: Engineering Intern
+        start: July 2016
+        end: January 2017
+        responsibilities:
+          - Collins Aerospace - Develop and Peer Review test cases, procedures, and scripts.
+
+  - company:
+      name: University of New Orleans
+      url: "https://uno.edu"
+      location: New Orleans, LA
+      overview: In 1958, the University of New Orleans opened its doors as the first fully integrated public university in the South. For nearly 60 years, we have not strayed from that vision. The University has educated students from all 64 Louisiana parishes, all 50 states, and more than 130 countries, bringing together a variety of talented and motivated students so that they may learn, interact and pursue their career goals.
+    positions:
+      - designation: Software Development Help Desk Tutor
+        start: August 2015
+        end: May 2016
+        responsibilities:
+          - Aided in completion of student's homework assignments by answering questions.
+          - Answered general questions about software development best practices, language usage, and API integration.
+
+  - company:
+      name: Complete Network Management
+      url: "https://www.completenetwork.com/"
+      location: Houma, LA
+      overview: Complete Network Management, Inc. (CNM) was founded in 1997 with the goal to provide high quality network management and IT services for small to medium-sized companies.
+    positions:
+      - designation: IT Intern
+        start: May 2015
+        end: August 2015
+        responsibilities:
+          - Repaired Windows workstations, servers, and networks.
+          - Monitored and managed networks, backups, and servers for various customers.
+          - Performed new site and emergency network and server installations.
+
+      - designation: IT Intern
+        start: May 2014
+        end: August 2014
+        responsibilities:
+          - Repaired Windows workstations, servers, and networks.
+          - Monitored and managed networks, backups, and servers for various customers.
+          - Performed new site and emergency network and server installations.

@@ -1,0 +1,11 @@
+.background {
+    filter: blur(3px) brightness(30%)
+}
+
+.card-body {
+    text-align: left;
+}
+
+.p-1.text-justify {
+    text-align: left !important;
+}

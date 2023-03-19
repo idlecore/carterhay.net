@@ -1,0 +1,15 @@
+name: "Carter Hay"
+nickname: "Carter"
+greeting: "Hey, I'm"
+image: "images/author/carter.jpg"
+contactInfo:
+  email: "carter@carterhay.net"
+  phone: "+19853607506"
+  github: idlecore
+  linkedin: carter-hay
+
+summary:
+  - I am an Embedded Developer
+  - I work on Airplanes
+  - I support open-source projects
+  - I am a Linux Enthusiast
