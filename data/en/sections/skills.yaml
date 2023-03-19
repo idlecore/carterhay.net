@@ -1,0 +1,37 @@
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+
+skills:
+  - name: C++
+    logo: /images/sections/skills/cpp.png
+    summary: "Extensive experience in certified embedded projects, desktop applications, and web backends."
+    url: "https://en.wikipedia.org/wiki/C%2B%2B"
+
+  - name: C
+    logo: /images/sections/skills/c.png
+    summary: "Extensive experience in certified embedded projects, RTOS partitions, and systems programming."
+    url: "https://en.wikipedia.org/wiki/C"
+
+  - name: Python
+    logo: /images/sections/skills/python.png
+    summary: "Experience in software verification frameworks, business process automation, desktop applications, and web applications using Flask."
+    url: "https://www.python.org/"
+
+  - name: Git
+    logo: /images/sections/skills/git.png
+    summary: "Experience using git for both professional and hobby development. Familiar with GitHub, GitLab, and Bitbucket."
+    url: "https://en.wikipedia.org/wiki/Git"
+
+  - name: GNU/Linux
+    logo: /images/sections/skills/linux.png
+    summary: "I've used GNU/Linux as my primary operating system for over a decade. I have deployed countless servers running Ubuntu. Developed drivers and system-level application for embedded projects."
+    url: "https://en.wikipedia.org/wiki/Linux"
+
+  - name: Unity
+    logo: /images/sections/skills/unity.png
+    summary: "Used for many hobby game projects. Currently using Unity for a large, multi-developer game project scheduled to release in 2023."
+    url: "https://unity.com/"

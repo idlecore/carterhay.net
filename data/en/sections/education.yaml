@@ -1,0 +1,42 @@
+section:
+  name: Education
+  id: education
+  template: sections/education.html
+  enable: true
+  weight: 4
+  showOnNavbar: true
+degrees:
+  - name: B.Sc. in Computer Science
+    icon: fa-university
+    timeframe: 2013-2016
+    institution:
+      name: University of New Orleans
+      url: "https://uno.edu"
+    grade:
+      scale: GPA
+      achieved: 3.6
+      outOf: 4
+    takenCourses:
+      showGrades: false
+      collapseAfter: 3
+      courses:
+        - name: Systems Programming
+        - name: Theory of Computation
+        - name: Computer Organization and Design
+        - name: Data Structures
+        - name: Analysis of Algorithms
+        - name: Database Models and Database Management
+
+  - name: Highschool
+    icon: fa-graduation-cap
+    timeframe: 2009-2013
+    institution:
+      name: Vandebilt Catholic Highschool
+      url: "https://vandebiltcatholic.org/"
+    grade:
+      scale: GPA
+      achieved: 3.95
+      outOf: 4
+    extracurricularActivities:
+      - President of the Computer Club
+    

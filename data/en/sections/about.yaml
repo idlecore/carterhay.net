@@ -1,0 +1,58 @@
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+designation: Senior Project Engineer
+company:
+  name: Performance Software
+  url: "https://psware.com"
+
+summary: 'I am a software engineer with a decade of development experience and 7 years of experience writing software for mission and safety critical embedded systems. I have many hobbies related to software development including business automation applications, game development, and security research.'
+
+socialLinks:
+  - name: Email
+    icon: "fas fa-envelope"
+    url: "carter@carterhay.net"
+
+  - name: Github
+    icon: "fab fa-github"
+    url: "https://github.com/idlecore"
+
+  - name: LinkedIn
+    icon: "fab fa-linkedin"
+    url: "https://linkedin.com/in/carter-hay"
+
+badges:
+  - type: soft-skill-indicator
+    name: Project Leadership
+    percentage: 80
+    color: "#FF5722"
+
+  - type: soft-skill-indicator
+    name: Software Requirements
+    percentage: 85
+    color: "#FFC107"
+
+  - type: soft-skill-indicator
+    name: Agile Methodologies
+    percentage: 60
+    color: "#CDDC39"
+
+  - type: soft-skill-indicator
+    name: DO-178C
+    percentage: 90
+    color: "#2196F3"
+
+  - type: soft-skill-indicator
+    name: Project Planning
+    percentage: 70
+    color: "#00BCD4"
+
+  - type: soft-skill-indicator
+    name: Software Lifecycles
+    percentage: 95
+    color: "#C2185B"
